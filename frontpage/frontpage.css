@@ -1,0 +1,71 @@
+.top-nav {
+  clear: both;
+  width: 100%;
+  color: blue;
+  margin-bottom: 1px dashed blue;
+}
+div {
+  display: block;
+}
+.top-nav.bd {
+  width: 950px;
+  margin: 0 auto;
+}
+.top-nav-info {
+  float: right;
+  margin-top: 5px;
+}
+.top-nav-items {
+  float: left;
+  font-size: 12px;
+  margin-top: 3px;
+}
+li {
+  display: inline;
+}
+h2 {
+  display: block;
+  color: #0000FF;
+  padding: 0 0 15px 0;
+  line-height: 1.1;
+  position: absolute;
+  top: 30px;
+  left: 50px;
+}
+.item .pic {
+  float: left;
+  top: 100px;
+  left: 50px;
+}
+.item .info {
+  overflow: hidden;
+  zoom: 1;
+}
+.list li {
+  display: inline-block;
+  *
+  display: inline;
+  zoom: 1;
+  width: 50%;
+  margin-top: 20px;
+  vertical-align: top;
+  word-spacing: normal;
+  letter-spacing: normal;
+}
+blockquote p {
+  display: inline;
+  background: url(quoter.gif) no-repeat right bottom;
+  padding: 0 15px 0 0;
+  word-wrap: break-word;
+}
+blockquote {
+  font: 1.2em /1.6em Georgia, "Times New Roman", Times, serif;
+  width: 400px;
+  padding-left: 18px;
+  text-indent: -18px;
+}
+blockquote:first-letter {
+  background: url(quotel.gif) no-repeat left top;
+  padding-left: 18px;
+  font: italic 1.4em Georgia, "Times New Roman", Times, serif;
+}
